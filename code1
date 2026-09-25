@@ -1,12 +1,14 @@
 --- 
-- hosts: localhost
+- name: Launch an EC2 instance with a public IP address
+  hosts: localhost
   connection: local
+
   tasks:
   - name: start an instance with a public IP address
     amazon.aws.ec2_instance:
       name: "ansible-instance"
-      # key_name: "prod-ssh-key"
-      vpc_subnet_id: default 
+      key_name: sshkeypair
+      vpc_subnet_id: subnet-00ab5f06fb1cc2411
       instance_type: t2.micro
       security_group: default
       region: us-east-1 
@@ -15,3 +17,4 @@
       image_id: ami-00adafae70b8029d8
       tags:
         Environment: Testing
+
