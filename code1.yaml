@@ -9,7 +9,7 @@
       name: "ansible-instance"
       key_name: sshkeypair
       vpc_subnet_id: subnet-00ab5f06fb1cc2411
-      instance_type: t2.micro
+      instance_type: t3.micro
       security_group: default
       region: us-east-1 
       network:
