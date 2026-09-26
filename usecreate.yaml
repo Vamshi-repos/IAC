@@ -30,4 +30,4 @@
     failed_when: false
   - name: print the output
     ansible.builtin.debug:
-      msg: "{{ user_output }}"
+      msg: "{{ user_output.stdout }}"
