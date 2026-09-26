@@ -16,7 +16,7 @@
   tasks:
   - name: Launch an EC2 instance with a public IP address
     amazon.aws.ec2_instance:
-      name: "ansible-instance"
+      name: "{{ item }} - {{ env }}"
       key_name: sshkeypair
       vpc_subnet_id: "{{ vpc_subnet_id }}"
       instance_type: t3.micro

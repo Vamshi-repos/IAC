@@ -1,0 +1,715 @@
+ok: [localhost] => {
+    "msg": {
+        "changed": true,
+        "deprecations": [
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_text' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_text' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "amazon.aws",
+                "date": "2026-12-01",
+                "deprecator": {
+                    "resolved_name": "amazon.aws",
+                    "type": null
+                },
+                "msg": "The network parameter has been deprecated, please use network_interfaces and/or network_interfaces_ids instead."
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_text' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_text' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "ansible.builtin",
+                "deprecator": {
+                    "resolved_name": "ansible.builtin",
+                    "type": null
+                },
+                "msg": "Importing 'to_native' from 'ansible.module_utils._text' is deprecated.",
+                "version": "2.24"
+            },
+            {
+                "collection_name": "amazon.aws",
+                "date": "2026-12-01",
+                "deprecator": {
+                    "resolved_name": "amazon.aws",
+                    "type": null
+                },
+                "msg": "The network parameter has been deprecated, please use network_interfaces and/or network_interfaces_ids instead."
+            }
+        ],
+        "msg": "All items completed",
+        "results": [
+            {
+                "ansible_loop_var": "item",
+                "changed": true,
+                "failed": false,
+                "instance_ids": [
+                    "i-0b32efe0600f228d3"
+                ],
+                "instances": [
+                    {
+                        "ami_launch_index": 0,
+                        "architecture": "x86_64",
+                        "block_device_mappings": [
+                            {
+                                "device_name": "/dev/sda1",
+                                "ebs": {
+                                    "attach_time": "2026-09-26T18:57:27+00:00",
+                                    "delete_on_termination": true,
+                                    "status": "attaching",
+                                    "volume_id": "vol-0ed5b28b5f8d9b2ec"
+                                }
+                            }
+                        ],
+                        "boot_mode": "uefi-preferred",
+                        "capacity_reservation_specification": {
+                            "capacity_reservation_preference": "open"
+                        },
+                        "client_token": "cd50aeeb1f7d4f14b9f3259189e70afb",
+                        "cpu_options": {
+                            "core_count": 1,
+                            "threads_per_core": 2
+                        },
+                        "current_instance_boot_mode": "uefi",
+                        "ebs_optimized": false,
+                        "ena_support": true,
+                        "enclave_options": {
+                            "enabled": false
+                        },
+                        "hibernation_options": {
+                            "configured": false
+                        },
+                        "hypervisor": "xen",
+                        "image_id": "ami-0b6d9d3d33ba97d99",
+                        "instance_id": "i-0b32efe0600f228d3",
+                        "instance_type": "t3.micro",
+                        "key_name": "sshkeypair",
+                        "launch_time": "2026-09-26T18:57:26+00:00",
+                        "maintenance_options": {
+                            "auto_recovery": "default",
+                            "reboot_migration": "default"
+                        },
+                        "metadata_options": {
+                            "http_endpoint": "enabled",
+                            "http_protocol_ipv6": "disabled",
+                            "http_put_response_hop_limit": 2,
+                            "http_tokens": "required",
+                            "instance_metadata_tags": "disabled",
+                            "state": "pending"
+                        },
+                        "monitoring": {
+                            "state": "disabled"
+                        },
+                        "network_interfaces": [
+                            {
+                                "association": {
+                                    "ip_owner_id": "amazon",
+                                    "public_dns_name": "ec2-100-55-78-66.compute-1.amazonaws.com",
+                                    "public_ip": "100.55.78.66"
+                                },
+                                "attachment": {
+                                    "attach_time": "2026-09-26T18:57:26+00:00",
+                                    "attachment_id": "eni-attach-04a23b8891c9b79b1",
+                                    "delete_on_termination": true,
+                                    "device_index": 0,
+                                    "network_card_index": 0,
+                                    "status": "attaching"
+                                },
+                                "description": "",
+                                "groups": [
+                                    {
+                                        "group_id": "sg-083446db6257302fd",
+                                        "group_name": "robo"
+                                    }
+                                ],
+                                "interface_type": "interface",
+                                "ipv6_addresses": [],
+                                "mac_address": "02:ff:db:ab:2d:eb",
+                                "network_interface_id": "eni-0762f5edd38b2ee95",
+                                "operator": {
+                                    "managed": false
+                                },
+                                "owner_id": "996992102768",
+                                "private_dns_name": "ip-10-0-0-10.ec2.internal",
+                                "private_ip_address": "10.0.0.10",
+                                "private_ip_addresses": [
+                                    {
+                                        "association": {
+                                            "ip_owner_id": "amazon",
+                                            "public_dns_name": "ec2-100-55-78-66.compute-1.amazonaws.com",
+                                            "public_ip": "100.55.78.66"
+                                        },
+                                        "primary": true,
+                                        "private_dns_name": "ip-10-0-0-10.ec2.internal",
+                                        "private_ip_address": "10.0.0.10"
+                                    }
+                                ],
+                                "source_dest_check": true,
+                                "status": "in-use",
+                                "subnet_id": "subnet-0180d5b418f80a11c",
+                                "vpc_id": "vpc-09400b74bbb418021"
+                            }
+                        ],
+                        "network_performance_options": {
+                            "bandwidth_weighting": "default"
+                        },
+                        "operator": {
+                            "managed": false
+                        },
+                        "placement": {
+                            "availability_zone": "us-east-1a",
+                            "availability_zone_id": "use1-az1",
+                            "group_name": "",
+                            "tenancy": "default"
+                        },
+                        "platform_details": "Linux/UNIX",
+                        "private_dns_name": "ip-10-0-0-10.ec2.internal",
+                        "private_dns_name_options": {
+                            "enable_resource_name_dns_a_record": false,
+                            "enable_resource_name_dns_aaaa_record": false,
+                            "hostname_type": "ip-name"
+                        },
+                        "private_ip_address": "10.0.0.10",
+                        "product_codes": [],
+                        "public_dns_name": "ec2-100-55-78-66.compute-1.amazonaws.com",
+                        "public_ip_address": "100.55.78.66",
+                        "root_device_name": "/dev/sda1",
+                        "root_device_type": "ebs",
+                        "security_groups": [
+                            {
+                                "group_id": "sg-083446db6257302fd",
+                                "group_name": "robo"
+                            }
+                        ],
+                        "source_dest_check": true,
+                        "state": {
+                            "code": 0,
+                            "name": "pending"
+                        },
+                        "state_transition_reason": "",
+                        "subnet_id": "subnet-0180d5b418f80a11c",
+                        "tags": {
+                            "Name": "ansible-instance",
+                            "Project": "roboshop",
+                            "component": "mongodb",
+                            "environment": "dev",
+                            "name": "mongodb - dev"
+                        },
+                        "usage_operation": "RunInstances",
+                        "usage_operation_update_time": "2026-09-26T18:57:26+00:00",
+                        "virtualization_type": "hvm",
+                        "vpc_id": "vpc-09400b74bbb418021"
+                    }
+                ],
+                "invocation": {
+                    "module_args": {
+                        "aap_callback": null,
+                        "access_key": null,
+                        "additional_info": null,
+                        "availability_zone": null,
+                        "aws_ca_bundle": null,
+                        "aws_config": null,
+                        "count": null,
+                        "cpu_credit_specification": null,
+                        "cpu_options": null,
+                        "debug_botocore_endpoint_logs": false,
+                        "detailed_monitoring": null,
+                        "ebs_optimized": null,
+                        "endpoint_url": null,
+                        "exact_count": null,
+                        "filters": null,
+                        "hibernation_options": false,
+                        "iam_instance_profile": null,
+                        "image": null,
+                        "image_id": "ami-0b6d9d3d33ba97d99",
+                        "instance_ids": [],
+                        "instance_initiated_shutdown_behavior": null,
+                        "instance_type": "t3.micro",
+                        "key_name": "sshkeypair",
+                        "launch_template": null,
+                        "license_specifications": null,
+                        "metadata_options": null,
+                        "name": "ansible-instance",
+                        "network": {
+                            "assign_public_ip": true
+                        },
+                        "network_interfaces": null,
+                        "network_interfaces_ids": null,
+                        "placement": null,
+                        "placement_group": null,
+                        "profile": null,
+                        "purge_tags": true,
+                        "region": "us-east-1",
+                        "secret_key": null,
+                        "security_group": "sg-083446db6257302fd",
+                        "security_groups": [],
+                        "session_token": null,
+                        "source_dest_check": null,
+                        "state": "present",
+                        "tags": {
+                            "Name": "ansible-instance",
+                            "Project": "roboshop",
+                            "component": "mongodb",
+                            "environment": "dev",
+                            "name": "mongodb - dev"
+                        },
+                        "tenancy": null,
+                        "termination_protection": null,
+                        "user_data": null,
+                        "validate_certs": true,
+                        "volumes": null,
+                        "vpc_subnet_id": "subnet-0180d5b418f80a11c",
+                        "wait": true,
+                        "wait_timeout": 600
+                    }
+                },
+                "item": "mongodb",
+                "spec": {
+                    "ClientToken": "cd50aeeb1f7d4f14b9f3259189e70afb",
+                    "ImageId": "ami-0b6d9d3d33ba97d99",
+                    "InstanceType": "t3.micro",
+                    "KeyName": "sshkeypair",
+                    "MaxCount": 1,
+                    "MinCount": 1,
+                    "NetworkInterfaces": [
+                        {
+                            "AssociatePublicIpAddress": true,
+                            "DeleteOnTermination": true,
+                            "DeviceIndex": 0,
+                            "Groups": [
+                                "sg-083446db6257302fd"
+                            ],
+                            "SubnetId": "subnet-0180d5b418f80a11c"
+                        }
+                    ],
+                    "TagSpecifications": [
+                        {
+                            "ResourceType": "volume",
+                            "Tags": [
+                                {
+                                    "Key": "Project",
+                                    "Value": "roboshop"
+                                },
+                                {
+                                    "Key": "component",
+                                    "Value": "mongodb"
+                                },
+                                {
+                                    "Key": "environment",
+                                    "Value": "dev"
+                                },
+                                {
+                                    "Key": "name",
+                                    "Value": "mongodb - dev"
+                                },
+                                {
+                                    "Key": "Name",
+                                    "Value": "ansible-instance"
+                                }
+                            ]
+                        },
+                        {
+                            "ResourceType": "instance",
+                            "Tags": [
+                                {
+                                    "Key": "Project",
+                                    "Value": "roboshop"
+                                },
+                                {
+                                    "Key": "component",
+                                    "Value": "mongodb"
+                                },
+                                {
+                                    "Key": "environment",
+                                    "Value": "dev"
+                                },
+                                {
+                                    "Key": "name",
+                                    "Value": "mongodb - dev"
+                                },
+                                {
+                                    "Key": "Name",
+                                    "Value": "ansible-instance"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "ansible_loop_var": "item",
+                "changed": true,
+                "changes": [],
+                "failed": false,
+                "instance_ids": [
+                    "i-0b32efe0600f228d3"
+                ],
+                "instances": [
+                    {
+                        "ami_launch_index": 0,
+                        "architecture": "x86_64",
+                        "block_device_mappings": [
+                            {
+                                "device_name": "/dev/sda1",
+                                "ebs": {
+                                    "attach_time": "2026-09-26T18:57:27+00:00",
+                                    "delete_on_termination": true,
+                                    "status": "attaching",
+                                    "volume_id": "vol-0ed5b28b5f8d9b2ec"
+                                }
+                            }
+                        ],
+                        "boot_mode": "uefi-preferred",
+                        "capacity_reservation_specification": {
+                            "capacity_reservation_preference": "open"
+                        },
+                        "client_token": "cd50aeeb1f7d4f14b9f3259189e70afb",
+                        "cpu_options": {
+                            "core_count": 1,
+                            "threads_per_core": 2
+                        },
+                        "current_instance_boot_mode": "uefi",
+                        "ebs_optimized": false,
+                        "ena_support": true,
+                        "enclave_options": {
+                            "enabled": false
+                        },
+                        "hibernation_options": {
+                            "configured": false
+                        },
+                        "hypervisor": "xen",
+                        "image_id": "ami-0b6d9d3d33ba97d99",
+                        "instance_id": "i-0b32efe0600f228d3",
+                        "instance_type": "t3.micro",
+                        "key_name": "sshkeypair",
+                        "launch_time": "2026-09-26T18:57:26+00:00",
+                        "maintenance_options": {
+                            "auto_recovery": "default",
+                            "reboot_migration": "default"
+                        },
+                        "metadata_options": {
+                            "http_endpoint": "enabled",
+                            "http_protocol_ipv6": "disabled",
+                            "http_put_response_hop_limit": 2,
+                            "http_tokens": "required",
+                            "instance_metadata_tags": "disabled",
+                            "state": "pending"
+                        },
+                        "monitoring": {
+                            "state": "disabled"
+                        },
+                        "network_interfaces": [
+                            {
+                                "association": {
+                                    "ip_owner_id": "amazon",
+                                    "public_dns_name": "ec2-100-55-78-66.compute-1.amazonaws.com",
+                                    "public_ip": "100.55.78.66"
+                                },
+                                "attachment": {
+                                    "attach_time": "2026-09-26T18:57:26+00:00",
+                                    "attachment_id": "eni-attach-04a23b8891c9b79b1",
+                                    "delete_on_termination": true,
+                                    "device_index": 0,
+                                    "network_card_index": 0,
+                                    "status": "attaching"
+                                },
+                                "description": "",
+                                "groups": [
+                                    {
+                                        "group_id": "sg-083446db6257302fd",
+                                        "group_name": "robo"
+                                    }
+                                ],
+                                "interface_type": "interface",
+                                "ipv6_addresses": [],
+                                "mac_address": "02:ff:db:ab:2d:eb",
+                                "network_interface_id": "eni-0762f5edd38b2ee95",
+                                "operator": {
+                                    "managed": false
+                                },
+                                "owner_id": "996992102768",
+                                "private_dns_name": "ip-10-0-0-10.ec2.internal",
+                                "private_ip_address": "10.0.0.10",
+                                "private_ip_addresses": [
+                                    {
+                                        "association": {
+                                            "ip_owner_id": "amazon",
+                                            "public_dns_name": "ec2-100-55-78-66.compute-1.amazonaws.com",
+                                            "public_ip": "100.55.78.66"
+                                        },
+                                        "primary": true,
+                                        "private_dns_name": "ip-10-0-0-10.ec2.internal",
+                                        "private_ip_address": "10.0.0.10"
+                                    }
+                                ],
+                                "source_dest_check": true,
+                                "status": "in-use",
+                                "subnet_id": "subnet-0180d5b418f80a11c",
+                                "vpc_id": "vpc-09400b74bbb418021"
+                            }
+                        ],
+                        "network_performance_options": {
+                            "bandwidth_weighting": "default"
+                        },
+                        "operator": {
+                            "managed": false
+                        },
+                        "placement": {
+                            "availability_zone": "us-east-1a",
+                            "availability_zone_id": "use1-az1",
+                            "group_name": "",
+                            "tenancy": "default"
+                        },
+                        "platform_details": "Linux/UNIX",
+                        "private_dns_name": "ip-10-0-0-10.ec2.internal",
+                        "private_dns_name_options": {
+                            "enable_resource_name_dns_a_record": false,
+                            "enable_resource_name_dns_aaaa_record": false,
+                            "hostname_type": "ip-name"
+                        },
+                        "private_ip_address": "10.0.0.10",
+                        "product_codes": [],
+                        "public_dns_name": "ec2-100-55-78-66.compute-1.amazonaws.com",
+                        "public_ip_address": "100.55.78.66",
+                        "root_device_name": "/dev/sda1",
+                        "root_device_type": "ebs",
+                        "security_groups": [
+                            {
+                                "group_id": "sg-083446db6257302fd",
+                                "group_name": "robo"
+                            }
+                        ],
+                        "source_dest_check": true,
+                        "state": {
+                            "code": 0,
+                            "name": "pending"
+                        },
+                        "state_transition_reason": "",
+                        "subnet_id": "subnet-0180d5b418f80a11c",
+                        "tags": {
+                            "Name": "ansible-instance",
+                            "Project": "roboshop",
+                            "component": "catalog",
+                            "environment": "dev",
+                            "name": "catalog - dev"
+                        },
+                        "usage_operation": "RunInstances",
+                        "usage_operation_update_time": "2026-09-26T18:57:26+00:00",
+                        "virtualization_type": "hvm",
+                        "vpc_id": "vpc-09400b74bbb418021"
+                    }
+                ],
+                "invocation": {
+                    "module_args": {
+                        "aap_callback": null,
+                        "access_key": null,
+                        "additional_info": null,
+                        "availability_zone": null,
+                        "aws_ca_bundle": null,
+                        "aws_config": null,
+                        "count": null,
+                        "cpu_credit_specification": null,
+                        "cpu_options": null,
+                        "debug_botocore_endpoint_logs": false,
+                        "detailed_monitoring": null,
+                        "ebs_optimized": null,
+                        "endpoint_url": null,
+                        "exact_count": null,
+                        "filters": null,
+                        "hibernation_options": false,
+                        "iam_instance_profile": null,
+                        "image": null,
+                        "image_id": "ami-0b6d9d3d33ba97d99",
+                        "instance_ids": [],
+                        "instance_initiated_shutdown_behavior": null,
+                        "instance_type": "t3.micro",
+                        "key_name": "sshkeypair",
+                        "launch_template": null,
+                        "license_specifications": null,
+                        "metadata_options": null,
+                        "name": "ansible-instance",
+                        "network": {
+                            "assign_public_ip": true
+                        },
+                        "network_interfaces": null,
+                        "network_interfaces_ids": null,
+                        "placement": null,
+                        "placement_group": null,
+                        "profile": null,
+                        "purge_tags": true,
+                        "region": "us-east-1",
+                        "secret_key": null,
+                        "security_group": "sg-083446db6257302fd",
+                        "security_groups": [],
+                        "session_token": null,
+                        "source_dest_check": null,
+                        "state": "present",
+                        "tags": {
+                            "Name": "ansible-instance",
+                            "Project": "roboshop",
+                            "component": "catalog",
+                            "environment": "dev",
+                            "name": "catalog - dev"
+                        },
+                        "tenancy": null,
+                        "termination_protection": null,
+                        "user_data": null,
+                        "validate_certs": true,
+                        "volumes": null,
+                        "vpc_subnet_id": "subnet-0180d5b418f80a11c",
+                        "wait": true,
+                        "wait_timeout": 600
+                    }
+                },
+                "item": "catalog"
+            }
+        ],
+        "skipped": false
+    }
+}
