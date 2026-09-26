@@ -7,6 +7,7 @@
   - name: check if user exists or not
     ansible.builtin.command: id roboshop
     register: user_output
+    failed_when: false
 
   - name: print the output
     ansible.builtin.debug:
@@ -15,19 +16,4 @@
     ansible.builtin.user:
       name: roboshop
       state: present
-    when: user_output.rc != 0    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    when: user_output.rc != 0
