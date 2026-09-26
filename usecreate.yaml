@@ -1,0 +1,18 @@
+---
+- name: Create user if not exists
+  hosts: lab
+  become: true
+
+  tasks:
+  - name: check if user exists or not
+    ansible.builtin.command: id roboshop
+    register: user_output
+
+  - name: print the output
+    ansible.builtin.debug:
+      msg: "{{ user_output.stdout }}"
+  - name: create user if not exists
+    ansible.builtin.user:
+      name: roboshop
+      state: present
+    
