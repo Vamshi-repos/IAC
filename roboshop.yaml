@@ -8,7 +8,7 @@
     security_group: sg-083446db6257302fd
     #vpc_subnet_id: vpc-09400b74bbb418021
     ami_id: ami-0b6d9d3d33ba97d99
-    environment: dev
+    env: dev
     instances:
        - mongodb
        - catalog
@@ -28,8 +28,8 @@
       tags:
         Project: roboshop
         component: "{{ item }}"
-        environment: "{{ environment }}"
-        name: "{{ item }} - {{ environment }}"
+        environment: "{{ env }}"
+        name: "{{ item }} - {{ env }}"
     loop: "{{ instances }}"
     register: ec2_output
 
