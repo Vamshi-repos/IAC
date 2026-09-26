@@ -12,8 +12,22 @@
   - name: print the output
     ansible.builtin.debug:
       msg: "{{ user_output }}"
+
   - name: create user if not exists
     ansible.builtin.user:
-      name: roboshop
+      name: vamshi
       state: present
     when: user_output.rc != 0
+  
+  - name: print the output
+    ansible.builtin.debug:
+      msg: "User created successfully"
+    when: user_output.rc != 0
+  
+  - name: user already exists
+    ansible.builtin.command: id vamshi
+    register: user_output
+    failed_when: false
+  - name: print the output
+    ansible.builtin.debug:
+      msg: "{{ user_output }}"
