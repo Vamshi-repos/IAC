@@ -13,6 +13,7 @@
        - mongodb
        - catalog
     domain_name: roboshop.online
+    action: create
 
   tasks:
   - name: Launch an EC2 instance with a public IP address
@@ -39,7 +40,7 @@
     ansible.builtin.debug:
       msg: "{{ ec2_output }}"
     when: action == 'create'
-    
+
   - name: creating route53 record for the instances
     amazon.aws.route53:
       state: present
