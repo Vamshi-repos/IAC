@@ -12,6 +12,7 @@
     instances:
        - mongodb
        - catalog
+    domain_name: roboshop.online
 
   tasks:
   - name: Launch an EC2 instance with a public IP address
@@ -40,8 +41,8 @@
   - name: creating route53 record for the instances
     amazon.aws.route53:
       state: present
-      zone: roboshop.com
-      record: "{{ item.item }}.roboshop.com"
+      zone: "{{ domain_name }}"
+      record: "{{ item.item }}-{{ env }}.{{ domain_name }}"
       type: A
       ttl: 1
       value: "{{ item.instances[0].public_ip_address }}"
