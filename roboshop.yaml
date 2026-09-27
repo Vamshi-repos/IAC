@@ -43,4 +43,4 @@
       - "Component: {{ item.item }}"
       - "Private IP: {{ item.instances[0].private_ip_address }}"
       - "Public IP: {{ item.instances[0].public_ip_address }}"
-  loop: "{{ ec2_output.results }}"
+    loop: "{{ ec2_output.results }}"
