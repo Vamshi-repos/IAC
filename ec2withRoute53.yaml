@@ -12,7 +12,7 @@
     instances:
        - mongodb
        - catalog
-    domain_name: roboshop.online
+    domain_name: daws88s.online
     action: create
 
   tasks:
