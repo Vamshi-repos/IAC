@@ -33,11 +33,13 @@
         name: "{{ item }} - {{ env }}"
     loop: "{{ instances }}"
     register: ec2_output
+    when: action == 'create'
 
   - name: print the output
     ansible.builtin.debug:
       msg: "{{ ec2_output }}"
-
+    when: action == 'create'
+    
   - name: creating route53 record for the instances
     amazon.aws.route53:
       state: present
@@ -46,8 +48,6 @@
       type: A
       ttl: 1
       value: "{{ item.instances[0].public_ip_address }}"
-      wait: yes
+      wait: true
     loop: "{{ ec2_output.results }}"
-    loop_control:
-     label: "{{ item.item }}"
     when: action == 'create'
